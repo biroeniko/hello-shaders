@@ -1,6 +1,6 @@
 # Hello-shaders
 My first attempt with shaders.
-This program is initially made following the tutorial on learnopengl.com(https://learnopengl.com/).
+This program is initially made following the tutorial on https://learnopengl.com/
 
 ## Getting Started
 
