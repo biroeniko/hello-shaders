@@ -1,6 +1,6 @@
 # Project definition
 cmake_minimum_required(VERSION 2.8)
-project(02Shaders)
+project(shaders)
 
 # Source files
 set(SRC_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
