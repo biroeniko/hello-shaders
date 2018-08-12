@@ -5,8 +5,7 @@ project(textures)
 # Source files
 set(SRC_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
 set(SHADER_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src/shaders")
-set(LIB_DIR "${CMAKE_CURRENT_SOURCE_DIR}/libraries")
-set(INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/include")
+set(INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/includes")
 set(SOURCES "${SRC_DIR}/main.cpp")
 
 find_package(glfw3 REQUIRED)
@@ -24,7 +23,7 @@ set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 11)
 target_link_libraries(${PROJECT_NAME} glfw3 GL GLU rt m dl Xrandr Xinerama Xxf86vm Xext Xcursor Xrender Xfixes X11 pthread xcb Xau Xdmcp)
 
 # glad
-set(GLAD_DIR "${LIB_DIR}/glad")
+set(GLAD_DIR "${INCLUDE_DIR}/glad")
 add_library("glad" "${GLAD_DIR}/src/glad.c")
 target_include_directories("glad" PRIVATE "${GLAD_DIR}/include")
 target_include_directories(${PROJECT_NAME} PRIVATE "${GLAD_DIR}/include")
