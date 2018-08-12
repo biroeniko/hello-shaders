@@ -50,6 +50,9 @@ Now you can build the binary by running:
 ```
 make
 ```
+Som example images which will welcome you in the programs:
+![]https://github.com/biroeniko/hello-shaders/blob/master/images/00.png)
+![]https://github.com/biroeniko/hello-shaders/blob/master/images/01.png)
 ## Built With
 
 * [OpenGL](https://www.opengl.org/)
