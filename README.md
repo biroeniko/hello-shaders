@@ -53,6 +53,8 @@ make
 Som example images which will welcome you in the programs:
 ![](https://github.com/biroeniko/hello-shaders/blob/master/images/00.png)
 ![](https://github.com/biroeniko/hello-shaders/blob/master/images/01.png)
+![](https://github.com/biroeniko/hello-shaders/blob/master/images/03.png)
+![](https://github.com/biroeniko/hello-shaders/blob/master/images/04.gif)
 ## Built With
 
 * [OpenGL](https://www.opengl.org/)
