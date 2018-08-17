@@ -1,6 +1,6 @@
 # Hello-shaders
 My first attempt with shaders, textures, etc.
-This project is initially made following the tutorial on https://learnopengl.com/
+This project is initially made following the tutorial on https://learnopengl.com/, during my learning process.
 
 ## Getting Started
 
